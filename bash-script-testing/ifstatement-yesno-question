@@ -1,0 +1,21 @@
+#!/bin/bash
+
+read -p "must answer 'yes' or 'no')? " userans
+
+echo $userans
+
+if [ "$userans" = "yes" ]; then
+    echo ""
+    echo "NO"
+    echo ""
+elif [ "$userans" = "no" ]; then
+    echo ""
+    echo "YES"
+    echo ""
+else
+    echo ""
+    echo "FUCK YOU"
+    echo ""
+fi
+
+exit
