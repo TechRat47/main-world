@@ -17,6 +17,7 @@ curdate=`date`
 #speedresults=output.txt
 speedresult="/home/$USER/output.txt"
 
+echo $USER
 echo ""
 echo "current date & time is: $curdate"
 echo ""
